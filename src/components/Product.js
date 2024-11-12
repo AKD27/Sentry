@@ -19,7 +19,7 @@ const Product = () => {
             <h4 className="text-xl font-semibold">{product.name}</h4>
             <p className="text-gray-500">{product.price}</p>
             <button 
-            onClick={() => {throw new Error("This is your first error!")}}
+            onClick={() => {throw new Error("This is your first error!");}}
             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-400">
               Add to Cart
             </button>
